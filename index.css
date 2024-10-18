@@ -133,8 +133,10 @@ h2{
 }
 
 .grid-display{
+  margin-top:10px; 
   display: grid;
   justify-content: right;
+  gap: 50px;
 }
 .top-element{
   font-size: 32px;
