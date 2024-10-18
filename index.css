@@ -1,6 +1,6 @@
 .hero-section{
   height: 700px;
-  background-image: url("/images/herobackground.jpg");
+  background-image: url("./images/herobackground.jpg");
   display: flex;
   flex-direction: column;
   justify-content: left;
