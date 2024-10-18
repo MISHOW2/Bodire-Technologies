@@ -1,0 +1,220 @@
+*{
+  font-family: "Inter", serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 34px;
+}
+.navigation{
+  display: none;
+}
+.nav ul{
+ display: flex;
+ gap: 37px;
+ list-style: none;
+}
+
+.nav li a{
+  color: rgb(83, 80, 80);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  
+  
+}
+
+.about p{
+  font-size:30px ;
+   font-weight: 400;
+}
+.nav a:hover{
+ color: red;
+}
+
+.header img{
+   width: 86px;
+   height: 66px;
+}
+
+
+
+footer{
+  color: white;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: #000000;
+}
+
+.footer-flex{
+  display: flex;
+  gap:401px ;
+}
+.Services ul li {
+  list-style: none;
+  color: #FFFFFF;
+  font-weight: 100;
+}
+.Services p{
+ font-size: 20px; 
+}
+
+.contact ul{
+  list-style: none;
+}
+.contact span{
+  font-size: 20px;
+  color: white;
+}
+
+.contact li p{
+  color: #5F5E5E;
+  font-size: 14px;
+  width: 300px;
+}
+
+.social-icons ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.social-icons i{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.social-icons i:hover{
+  color: red;
+}
+
+.footer-nav ul{
+ list-style: none;
+}
+.footer-nav li a{
+  color: #5F5E5E;
+   text-decoration: none;
+}
+
+.footer-nav li a:hover{
+  color: #f5f5f5;
+   text-decoration: none;
+}
+
+
+
+/* For tablets (screens between 600px and 1024px) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  
+
+}
+
+/* For phones (screens 599px and below) */
+@media only screen and (max-width: 460px) {
+  .header {
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+  }
+
+  .openMenu i{
+   font-size: 40px;
+   color: #5F5E5E;
+  }
+   .nav{
+    display: none;
+   }
+   .close-menu i{
+    font-size: 40px;
+   }
+   .navigation {
+    padding-top: 50px;
+    position: fixed; /* Changed to fixed to stay relative to the viewport */
+    width: 220px;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #000000;
+    left: 0;
+    top: 0; /* Ensure it starts from the top of the screen */
+    color: white;
+    z-index: 999; /* Ensure it appears above other content */
+  
+  }
+  
+   .navLinks ul{
+    display: grid;
+    gap: 37px;
+    justify-content: center;
+    list-style: none;
+  
+   }
+   
+   .navLinks li a{
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 700;
+     cursor: pointer;
+   }
+
+   .navLinks li a:hover{
+   
+    color: #5F5E5E;
+    
+  }
+   
+   .nav-icons i{
+     font-size: 20px;
+   }
+   .navigation a:hover{
+    color: red;
+   }
+   
+   .nav-icons ul{
+    display: flex;
+    list-style: none;
+    gap: 14px;
+    justify-content: center;
+
+   }
+
+   footer {
+    padding: 20px;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Services ul li {
+    font-size: 12px;
+  }
+
+  .contact ul {
+    padding: 0;
+  }
+
+  .contact li p {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .social-icons ul {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .social-icons i {
+    font-size: 20px;
+  }
+
+  .footer-nav ul {
+    
+  }
+
+  .footer-nav li a {
+    font-size: 12px;
+  }
+}
