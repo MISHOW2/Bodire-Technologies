@@ -1,4 +1,4 @@
-.hero-section{
+.hero-section {
   height: 700px;
   background-image: url("./images/herobackground.jpg");
   display: flex;
@@ -10,30 +10,30 @@
   background-position: top; /* Centers the image in the div */
 }
 
-h2{
+h2 {
   color: white;
   font-size: 36px;
   width: 426px;
   font-weight: 700;
 }
 
-.openMenu, .closeMenu{
+.openMenu, .closeMenu {
   display: none;
 }
-.hero-content button{
- width: 123px; 
- height: 47px;
- font-size:16px ;
- background-color: #000000;
- color: white;
- border: none;
- border-radius: 10px;
+
+.hero-content button {
+  width: 123px; 
+  height: 47px;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
 
-.hero-content{
+.hero-content {
   display: flex;
   flex-direction: column;
-  
   justify-content: center;
   background-color: hsl(0, 100%, 53%, 70%);
   height: 100%;
@@ -41,32 +41,32 @@ h2{
   padding: 40px;
 }
 
-.about{
+.about {
   display: grid;
   justify-content: center;
   margin-top: 100px;
- text-align: center;
+  text-align: center;
 }
-.about p{
+
+.about p {
   font-size: 14px;
   color: #5F5E5E;
-
 }
 
-.about h5{
+.about h5 {
   font-size: 20px;
   width: 668px;
   font-weight: 300;
 }
 
-.vision-mission{
+.vision-mission {
   margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 208px;
 }
 
-.vision{
+.vision {
   display: grid;
   width: 416px;
   justify-content: center;
@@ -74,13 +74,12 @@ h2{
   text-align: center;
 }
 
-.main-content{
+.main-content {
   display: grid;
-  gap:149px;
-
+  gap: 149px;
 }
 
-.firstbox{
+.firstbox {
   background-color: #000000;
   height: 412px;
   display: flex;
@@ -89,112 +88,125 @@ h2{
   justify-content: center;
   align-items: center; 
 }
-.firstbox h1{
+
+.firstbox h1 {
   font-weight: 300;
 }
-.firstbox p{
+
+.firstbox p {
   width: 760px;
   text-align: center;
   font-weight: 200;
 }
-.icon-containers img{
+
+.icon-containers img {
   width: 60px;
 }
-.flexbox{
+
+.flexbox {
   width: 272px;
   height: 214px;
   background-color: #D6C0BA;
   border-radius: 14px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-}
-.flexboxes{
-  position: absolute;
   display: flex;
-  gap: 58px;
-  left: 230px;
-  top: 330px;
-}
-.whatWeoffer{
- position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.left-p-element{
+.flexboxes {
+  position: relative; /* Changed to relative for better positioning */
+  display: flex;
+  gap: 58px;
+  flex-wrap: wrap; /* Allow boxes to wrap on smaller screens */
+  justify-content: center; /* Center the boxes */
+  margin: 0 auto; /* Center the flexboxes within their container */
+}
+
+.whatWeoffer {
+  position: relative;
+}
+
+.left-p-element {
   font-size: 36px;
   width: 591px;
   font-weight: bold;
 }
+
 .lower-element {
   font-size: 20px;
   width: 700px;
 }
 
-.grid-display{
+.grid-display {
   display: grid;
+  gap: 60px;
   justify-content: right;
 }
-.top-element{
+.positive-drive{
+  padding: 0 70px;
+}
+
+.top-element {
   font-size: 32px;
   font-weight: bold;
   display: flex;
   align-items: baseline;
   gap: 30px;
 }
-.number{
-  color: #5F5E5E;
-  font-size:48px ;
 
+.number {
+  color: #5F5E5E;
+  font-size: 48px;
 }
-.features{
+
+.features {
   margin-left: 82px;
   display: grid;
   gap: 40px;
-  
 }
-.ourFeatures{
+
+.ourFeatures {
   display: flex;
- 
   gap: 103px;
-
 }
 
-.ourFeatures img{
+.ourFeatures img {
   width: 773px;
   height: 450px;
   border-radius: 30px;
 }
-.ourFeatures div{
+
+.ourFeatures div {
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 
-.ourFeatures div p{
+.ourFeatures div p {
   font-size: 14px;
   width: 393px;
   font-weight: bold;
 }
 
-.ourFeatures div h1{
+.ourFeatures div h1 {
   font-size: 32px;
   width: 393px;
   font-weight: bold;
 }
 
-
+/* Responsive Styles */
 @media only screen and (max-width: 412px) {
-  .openMenu{
+  .openMenu {
     display: block;
   }
 
-   i{
+  i {
     font-size: 34px;
     font-weight: 400;
-   }
+  }
+
   .hero-section {
     height: 477px;
     width: 100%; 
@@ -224,10 +236,11 @@ h2{
     display: flex;
     gap: 40px;
   }
-  .about p{
-   font-size: 14px;
+
+  .about p {
+    font-size: 14px;
   }
-   
+
   .about {
     margin-top: 50px;
     padding: 0 20px;
@@ -239,7 +252,7 @@ h2{
   }
 
   .vision-mission {
-     display: grid;
+    display: grid;
     gap: 20px;
     justify-content: center; 
   }
@@ -259,9 +272,11 @@ h2{
     border-radius: 30px;
     text-align: center;
   }
-  .firstbox h1{
+
+  .firstbox h1 {
     font-size: 15px;
   }
+
   .firstbox p {
     width: 100%; 
     font-size: 11px;
@@ -269,8 +284,6 @@ h2{
   }
 
   .flexbox {
-    width: 166px;
-    height: 137px;
     width: 166px;
     height: auto; 
     display: flex;
@@ -289,18 +302,21 @@ h2{
     gap: 20px;
     width: 100%;
   }
-  .icon-containers img{
+
+  .icon-containers img {
     width: 24px;
     height: 22px;
   }
-  .title{
+
+  .title {
     font-size: 12px;
   } 
 
-  .title-msg{
+  .title-msg {
     font-family: 10px;
     width: 166px;
   }
+
   .left-p-element {
     font-size: 24px;
     width: 100%;
@@ -351,5 +367,4 @@ h2{
     font-size: 38px;
     text-align: left;
   }
-
 }
