@@ -131,7 +131,10 @@ h2{
 }
 
 
-
+.dedicated{
+  padding: 0 65px;
+  margin: 150PX 0px 70px 0px;
+}
 .left-p-element{
   font-size: 36px;
   width: 591px;
