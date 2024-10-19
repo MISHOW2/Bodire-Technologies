@@ -46,18 +46,16 @@
 footer {
   color: white;
   margin-top: 100px;
-  padding: 30px;
+
   background-color: #000000;
-  display: flex; /* Ensure flexbox layout */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
+  display: grid; 
+  padding: 10px 80px;
 }
 
 .footer-flex {
   display: flex;
-  gap: 401px; /* Adjust this as needed for layout */
-  justify-content: space-between; /* Aligns child items */
-  flex-wrap: wrap; /* Ensure responsiveness */
+  justify-content: space-between;
+
 }
 
 .Services ul li {
@@ -77,7 +75,7 @@ footer {
 }
 
 .contact span {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
 }
 
@@ -95,6 +93,7 @@ footer {
   list-style: none;
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 .social-icons i {
