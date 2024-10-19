@@ -316,15 +316,18 @@ h2 {
     gap: 20px;
     flex-direction: column;
   }
-
+   
   .main-content {
-    gap: 80px;
+    display: grid;
+    gap: 100px;
   }
 
   .firstbox p {
     font-size: 14px;
   }
-
+  .dedicated{
+    margin-top: 700px;
+  }
   .flexbox {
     width: 150px;
     height: 120px;
@@ -345,10 +348,12 @@ h2 {
 
   .ourFeatures div p {
     font-size: 14px;
+    font-weight: 400;
   }
 
   .ourFeatures div h1 {
     font-size: 24px;
+
   }
 }
 
@@ -515,6 +520,7 @@ h2 {
     width: 100%;
     font-size: 18px;
     text-align: left;
+    font-weight: 400;
   }
 
   .ourFeatures div h1 {
