@@ -81,15 +81,16 @@ h2{
 }
 .whatWeoffer{
   position: relative;
-}
-.firstbox{
   background-color: #000000;
   height: 412px;
+}
+.firstbox{
   display: flex;
   flex-direction: column;
   color: white;
   justify-content: center;
   align-items: center; 
+  margin-top: 140px;
 }
 .firstbox h1{
   font-weight: 300;
@@ -117,6 +118,7 @@ h2{
   position: absolute;
   display: flex;
   gap: 58px;
+  justify-content: center;
   left: 230px;
   top: 330px;
 }
