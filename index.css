@@ -67,10 +67,14 @@ h2 {
   justify-content: center;
   gap: 208px;
 }
-
+.boldText {
+ font-size:16px ;
+  font-weight: 600;
+}
 .vision {
   display: grid;
   width: 416px;
+  gap: 19px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -138,6 +142,7 @@ h2 {
 .dedicated {
   padding: 0 65px;
   margin: 150PX 0px 70px 0px;
+
 }
 
 .left-p-element {
@@ -151,15 +156,15 @@ h2 {
   width: 700px;
 }
 
-.grid-display {
-  margin-top: 10px; 
+.grid-display { 
   display: grid;
   justify-content: right;
-  gap: 50px;
+  gap: 20px;
+  margin-top: 40px;
 }
 
 .top-element {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   display: flex;
   align-items: baseline;
@@ -168,7 +173,7 @@ h2 {
 
 .number {
   color: #5F5E5E;
-  font-size: 48px;
+  font-size: 46px;
 }
 
 .features {
@@ -316,7 +321,18 @@ h2 {
     gap: 20px;
     flex-direction: column;
   }
-   
+  .vision-mission img{
+    width: 61px;
+    height: 61px;
+  }
+    .vision{
+      display: grid;
+      gap: 19px;
+    }
+   .visionP{
+    font-weight: 100;
+    font-size: 10px;
+   }
   .main-content {
     display: grid;
     gap: 100px;
