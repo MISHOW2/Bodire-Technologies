@@ -79,11 +79,26 @@ h2{
   gap:149px;
 
 }
-.whatWeoffer{
+
+.whatWeoffer {
   position: relative;
   background-color: #000000;
   height: 412px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* To center the children horizontally */
 }
+
+.flexboxes {
+  position: absolute;
+  display: flex;
+  gap: 58px;
+  justify-content: center;
+  bottom: -230px; /* Adjust this to control vertical alignment */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
+}
+
 .firstbox{
   display: flex;
   flex-direction: column;
@@ -114,17 +129,8 @@ h2{
    align-items: center;
    text-align: center;
 }
-.flexboxes{
-  position: absolute;
-  display: flex;
-  gap: 58px;
-  justify-content: center;
-  left: 230px;
-  top: 330px;
-}
-.whatWeoffer{
- position: relative;
-}
+
+
 
 .left-p-element{
   font-size: 36px;
