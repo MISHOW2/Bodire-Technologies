@@ -79,7 +79,9 @@ h2{
   gap:149px;
 
 }
-
+.whatWeoffer{
+  position: relative;
+}
 .firstbox{
   background-color: #000000;
   height: 412px;
@@ -283,7 +285,7 @@ h2{
 
   .flexboxes {
     gap: 20px;
-    position: static;
+    position: absolute;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap; 
